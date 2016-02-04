@@ -28,7 +28,7 @@ Change your [conf.py](http://sphinx-doc.org/config.html#options-for-html-output)
 ----
 
 ## Examples
-### Screenshots (FIXME)
+### [Screenshots](./screenshots)
 ![F6 Sphinx theme screenshot 1](./screenshots/demo_f6_sphinx_theme_1.png)
 
 ![F6 Sphinx theme screenshot 2](./screenshots/demo_f6_sphinx_theme_2.png)
