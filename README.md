@@ -1,21 +1,29 @@
 # *F6 theme* for [Sphinx](http://sphinx-doc.org/)
 > A clean and minimalist theme for [Sphinx doc](http://sphinx-doc.org/).
+> Mostly white -> #ffffff -> f6.
 
 ----
 
 ## How to use it?
-### Installation (FIXME)
-Clone the repository, copy the files FIXME to FIXME.
+### Installation
+Clone the repository, copy the files [theme.conf](theme.conf), [layout.html](./layout.html)
+(and the [static](./static) folder),
+to a folder ``_themes/f6/`` located in your Sphinx project:
 
-    $ git clone FIXME
+    $ git clone https://github.com/Naereen/f6_sphinx_theme/
+    $ cd f6_sphinx_theme/
     $ cp * /path/to/your/project/
 
 
-### Usage (FIXME)
+### Usage
 Change your [conf.py](http://sphinx-doc.org/config.html#options-for-html-output) sphinx file to:
 
-    FIXME
-    FIXME
+    html_theme = 'f6'
+    html_theme_path = '/location/to/the/files/f6/'
+
+
+1. Change the ``html_theme`` parameter to ``f6``.
+2. Change the ``html_theme_path`` to the location containing the f6 files.
 
 ----
 
@@ -38,7 +46,7 @@ FIXME
 ## About
 ### Authors?
 - [Forked by](https://github.com/Naereen/f6_sphinx_theme/): [Lilian Besson (Naereen)](https://github.com/Naereen/),
-- Original author: [Vimalkumar Velayudhan (vimalkvn)](https://github.com/vimalkvn), copied from [GitHub](https://github.com/vimalkvn/sphinx-themes/tree/master/f6). See [here for more themes](http://vimalkumarvelayudhan.com/sphinx-themes/).
+- Original author: [Vimalkumar Velayudhan (vimalkvn)](https://github.com/vimalkvn), copied from [GitHub](https://github.com/vimalkvn/sphinx-themes/tree/master/f6). See [here for more themes](http://vimalkumarvelayudhan.com/sphinx-themes/). Modified from the default Sphinx theme.
 
 ### License?
-> [MIT License](./LICENSE).
+> [GPL License](http://www.gnu.org/licenses/gpl.html).
