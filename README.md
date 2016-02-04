@@ -29,23 +29,22 @@ Change your [conf.py](http://sphinx-doc.org/config.html#options-for-html-output)
 
 ## Examples
 ### Screenshots (FIXME)
-FIXME
+![F6 Sphinx theme screenshot 1](./screenshots/demo_f6_sphinx_theme_1.png)
 
-FIXME
+![F6 Sphinx theme screenshot 2](./screenshots/demo_f6_sphinx_theme_2.png)
 
-FIXME
+![F6 Sphinx theme screenshot 3](./screenshots/demo_f6_sphinx_theme_3.png)
 
 ### Live demos?
 - [Vimalkumar's demo](http://vimalkumarvelayudhan.com/sphinx-themes/f6/html/index.html),
 - [folium documentation](https://folium.readthedocs.org/en/latest/),
-- [pi-qmc documentation](http://pi-qmc.readthedocs.org/),
-- [infoMP/DSs/solutions/](http://perso.crans.org/besson/infoMP/DSs/solutions/).
+- [pi-qmc documentation](http://pi-qmc.readthedocs.org/).
 
 ----
 
 ## About
 ### Authors?
-- [Forked by](https://github.com/Naereen/f6_sphinx_theme/): [Lilian Besson (Naereen)](https://github.com/Naereen/),
+- [Forked by](https://github.com/Naereen/f6_sphinx_theme/) [Lilian Besson (Naereen)](https://github.com/Naereen/),
 - Original author: [Vimalkumar Velayudhan (vimalkvn)](https://github.com/vimalkvn), copied from [GitHub](https://github.com/vimalkvn/sphinx-themes/tree/master/f6). See [here for more themes](http://vimalkumarvelayudhan.com/sphinx-themes/). Modified from the default Sphinx theme.
 
 ### License?
