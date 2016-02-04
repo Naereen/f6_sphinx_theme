@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="F6 sphinx theme : Bright theme for sphinx-doc (based on f6 by @vimalkvn)">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>F6 sphinx theme</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Naereen/f6_sphinx_theme">View on GitHub</a>
+
+          <h1 id="project_title">F6 sphinx theme</h1>
+          <h2 id="project_tagline">Bright theme for sphinx-doc (based on f6 by @vimalkvn)</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Naereen/f6_sphinx_theme/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Naereen/f6_sphinx_theme/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="f6-theme-for-sphinx" class="anchor" href="#f6-theme-for-sphinx" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>F6 theme</em> for <a href="http://sphinx-doc.org/">Sphinx</a>
+</h1>
+
+<blockquote>
+<p>A clean and minimalist theme for <a href="http://sphinx-doc.org/">Sphinx doc</a>.
+Mostly white -&gt; #ffffff -&gt; f6.</p>
+</blockquote>
+
+<hr>
+
+<h2>
+<a id="how-to-use-it" class="anchor" href="#how-to-use-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use it?</h2>
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h3>
+
+<p>Clone the repository, copy the files <a href="https://cdn.rawgit.com/Naereen/f6_sphinx_theme/tree/master/theme.conf">theme.conf</a>, <a href="https://cdn.rawgit.com/Naereen/f6_sphinx_theme/tree/master/layout.html">layout.html</a>
+(and the <a href="https://github.com/Naereen/f6_sphinx_theme/master/static/">static</a> folder),
+to a folder <code>_themes/f6/</code> located in your Sphinx project:</p>
+
+<pre><code>$ git clone https://github.com/Naereen/f6_sphinx_theme/
+$ cd f6_sphinx_theme/
+$ cp * /path/to/your/project/
+</code></pre>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h3>
+
+<p>Change your <a href="http://sphinx-doc.org/config.html#options-for-html-output">conf.py</a> sphinx file to:</p>
+
+<pre><code>html_theme = 'f6'
+html_theme_path = '/location/to/the/files/f6/'
+</code></pre>
+
+<ol>
+<li>Change the <code>html_theme</code> parameter to <code>f6</code>.</li>
+<li>Change the <code>html_theme_path</code> to the location containing the f6 files.</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h2>
+
+<h3>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/Naereen/f6_sphinx_theme/tree/master/screenshots">Screenshots</a>
+</h3>
+
+<p><img src="https://cdn.rawgit.com/Naereen/f6_sphinx_theme/master/screenshots/demo_f6_sphinx_theme_1.png" alt="F6 Sphinx theme screenshot 1"></p>
+
+<p><img src="https://cdn.rawgit.com/Naereen/f6_sphinx_theme/master/screenshots/demo_f6_sphinx_theme_2.png" alt="F6 Sphinx theme screenshot 2"></p>
+
+<p><img src="https://cdn.rawgit.com/Naereen/f6_sphinx_theme/master/screenshots/demo_f6_sphinx_theme_3.png" alt="F6 Sphinx theme screenshot 3"></p>
+
+<h3>
+<a id="live-demos" class="anchor" href="#live-demos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Live demos?</h3>
+
+<ul>
+<li>
+<a href="http://vimalkumarvelayudhan.com/sphinx-themes/f6/html/index.html">Vimalkumar's demo</a>,</li>
+<li>
+<a href="https://folium.readthedocs.org/en/latest/">folium documentation</a>,</li>
+<li>
+<a href="http://pi-qmc.readthedocs.org/">pi-qmc documentation</a>.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h2>
+
+<h3>
+<a id="authors" class="anchor" href="#authors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors?</h3>
+
+<ul>
+<li>
+<a href="https://github.com/Naereen/f6_sphinx_theme/">Forked by</a> <a href="https://github.com/Naereen/">Lilian Besson (Naereen)</a>,</li>
+<li>Original author: <a href="https://github.com/vimalkvn">Vimalkumar Velayudhan (vimalkvn)</a>, copied from <a href="https://github.com/vimalkvn/sphinx-themes/tree/master/f6">GitHub</a>. See <a href="http://vimalkumarvelayudhan.com/sphinx-themes/">here for more themes</a>. Modified from the default Sphinx theme.</li>
+</ul>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License?</h3>
+
+<blockquote>
+<p><a href="http://www.gnu.org/licenses/gpl.html">GPL License</a>.</p>
+</blockquote>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">F6 sphinx theme maintained by <a href="https://github.com/Naereen">Naereen</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-38514290-17");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
