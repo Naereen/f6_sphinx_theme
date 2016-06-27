@@ -1,6 +1,6 @@
 # *F6 theme* for [Sphinx](http://sphinx-doc.org/)
 > A clean and minimalist theme for [Sphinx doc](http://sphinx-doc.org/).
-> Mostly white -> #ffffff -> f6.
+> Mostly white -> ``#ffffff`` -> **f6**.
 
 ----
 
@@ -47,5 +47,7 @@ Change your [conf.py](http://sphinx-doc.org/config.html#options-for-html-output)
 - [Forked by](https://github.com/Naereen/f6_sphinx_theme/) [Lilian Besson (Naereen)](https://github.com/Naereen/),
 - Original author: [Vimalkumar Velayudhan (vimalkvn)](https://github.com/vimalkvn), copied from [GitHub](https://github.com/vimalkvn/sphinx-themes/tree/master/f6). See [here for more themes](http://vimalkumarvelayudhan.com/sphinx-themes/). Modified from the default Sphinx theme.
 
-### License?
+### :scroll: License?
 > [GPL License](http://www.gnu.org/licenses/gpl.html).
+
+[![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/f6_sphinx_theme/README.md?pixel)](https://github.com/Naereen/f6_sphinx_theme/)
