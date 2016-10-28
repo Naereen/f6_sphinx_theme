@@ -48,7 +48,7 @@ Change your [conf.py](http://sphinx-doc.org/config.html#options-for-html-output)
 - Original author: [Vimalkumar Velayudhan (vimalkvn)](https://github.com/vimalkvn), copied from [GitHub](https://github.com/vimalkvn/sphinx-themes/tree/master/f6). See [here for more themes](http://vimalkumarvelayudhan.com/sphinx-themes/). Modified from the default Sphinx theme.
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/f6_sphinx_theme.svg)](https://github.com/Naereen/f6_sphinx_theme/blob/master/LICENSE)
-This plug-in is published under the terms of the [GPL License](http://www.gnu.org/licenses/gpl.html) (file [LICENSE.txt](LICENSE.txt)),
+This plug-in is published under the terms of the [GPL License](http://www.gnu.org/licenses/gpl.html) (file [LICENSE](LICENSE)),
 © [Lilian Besson](https://GitHub.com/Naereen), 2016.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/f6_sphinx_theme/graphs/commit-activity)
